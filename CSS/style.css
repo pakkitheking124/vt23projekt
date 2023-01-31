@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 *{
     text-decoration: none;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.nav-but{
+    float: left;
+    display: inline-list-item;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul > li > a {
+    font-family: 'Passion One', cursive;
+    font-size: 35px;
 }
